@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Lista de usuarios
+{% endblock title %}
+
+    {% block content %}
+        <h1 class="u-h1">Usuarios</h1>
+        <ul>
+            {% for u in my_users %}
+                <li><span>Nombre:</span> {{u.firstname}} |
+                     <span>Apellido:</span> {{u.lastname}} |
+                      <span>Edad:</span> {{u.age}} |
+                      <span> Email:</span> {{u.email}} |
+                        <span>Telefono:</span> {{u.phone_number}}</li>
+            {% endfor %}
+        </ul>
+    {% endblock %}

@@ -1,0 +1,10 @@
+"pip install -r requirements.txt" para instalar lo necesario para hacer funcionar este proyecto
+
+Definir el modelo en models.py.
+Crear un formulario en forms.py.
+Configurar las vistas en views.py.
+Configurar las URLs del proyecto y la aplicación.
+Crear las plantillas HTML.
+Migrar la base de datos y ejecutar el servidor.
+Con estos pasos, tendrás un formulario funcional para crear usuarios y una vista para listar los usuarios en Django.
+

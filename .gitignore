@@ -1,1 +1,111 @@
-v_enviroment
+# Python
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+env/
+env.bak/
+venv/
+venv.bak/
+
+# Entorno virtual
+v_enviroment/
+
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+
+# VS Code
+.vscode/
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Distribución por módulos
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Caches
+*.mypy_cache/
+*.pytest_cache/
+.coverage
+*.cover
+.hypothesis/
+*.coverage.*
+
+# Archivo Pytest
+.cache
+
+# Documentación
+docs/_build/
+
+# Sphinx
+_site/
+
+# PyBuilder
+target/
+
+# Editor
+.vscode/
+.idea/
+.mypy_cache/
+pytest_cache/
+.pytest_cache/
+.coverage
+coverage.xml
+
+# Otros
+*.DS_Store
+Thumbs.db
+
+# Archivos generados por el sistema
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Archivos Thumbnails
+._*
+
+# Icono de los almacenes de Apple
+Icon
+Icon\r
+
+# Archivos de conflicto
+._*
+
+# Editor de imágenes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Sistema de archivos Linux
+.Trash-*
+
+# Parallels VM
+.parallels-vm
+
+# Archivo de directorio Linux
+.directory

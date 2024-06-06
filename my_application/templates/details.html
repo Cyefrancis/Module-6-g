@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-5">
+    <form method="post" novalidate>
+        {% csrf_token %}
+        <table class="table table-bordered">
+            <h1>User by id</h1>
+            <thead>
+                <tr>
+                    <th>Field</th>
+                    <th>Info</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><label for="id_firstname" class="form-label">First Name</label></td>
+                    <td>{{ user.firstname }}</td>
+                </tr>
+                <tr>
+                    <td><label for="id_lastname" class="form-label">Last Name</label></td>
+                    <td>{{ user.lastname }}</td>
+                </tr>
+                <tr>
+                    <td><label for="id_age" class="form-label">Age</label></td>
+                    <td>{{ user.age }}</td>
+                </tr>
+                <tr>
+                    <td><label for="id_email" class="form-label">Email</label></td>
+                    <td>{{ user.email }}</td>
+                </tr>
+                <tr>
+                    <td><label for="id_phone_number" class="form-label">Phone Number</label></td>
+                    <td>{{ user.phone_number }}</td>
+                </tr>
+            </tbody>
+        </table>
+    </form>
+</div>
+{% endblock content %}
